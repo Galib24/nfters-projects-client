@@ -77,7 +77,7 @@ const Footer = () => {
                                 <p className='my-7'>Join Our mailing list to stay the loop with our newest feature releases, NFT drops and tips for navigating NFTs</p>
                                 <div className='flex relative'>
                                     <input className='rounded-full w-full  border-y-4 px-20 py-2' placeholder='Email Address' type="text" name="" id="" />
-                                    <button className='btn-primary rounded-3xl absolute right-0 mt-1 py-2 px-3   text-white font-semibold '>Subscribe Now</button>
+                                    <button className='btn-secondary rounded-3xl absolute right-0 mt-1 py-2 px-3   text-white font-semibold '>Subscribe Now</button>
                                 </div>
                             </div>
 
