@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import img1 from '../../../assets/Ellipse 95.png'
-import img2 from '../../../assets/imgmm.png'
-import img3 from '../../../assets/Group.png'
-import img4 from '../../../assets/imgmmm.png'
+import useData from '../../../hooks/useData';
 const ThirdSection = () => {
+const [allData] = useData();
+const topData = allData.filter(item => item.ratio >= 1);
+    console.log(topData);
     return (
         <>
             <section className='grid sm:grid-cols-1 md:grid-cols-2 my-16 lg:grid-cols-3'>
@@ -30,9 +31,11 @@ const ThirdSection = () => {
                 </div>
                 <div className='mt-16 ml-10'>
                     <div className='flex gap-5'>
-                        
-                        <img  src={img2} alt="" />
-                        
+
+                        <div className=' w-36'>
+                            <img className='rounded-xl' src='https://i.ibb.co/f4jGDHX/adoha.png' alt="" />
+                        </div>
+
                         <div>
                             <h1 className='font-bold'>The Futr Abstr</h1>
                             <div className='flex gap-2'>
@@ -53,7 +56,9 @@ const ThirdSection = () => {
                         </div>
                     </div>
                     <div className='flex gap-5 my-6'>
-                        <img src={img3} alt="" />
+                        <div className=' w-36'>
+                            <img className='rounded-xl' src='https://i.ibb.co/tcssq1j/sdfh.png' alt="" />
+                        </div>
                         <div>
                             <h1 className='font-bold'>The Futr Abstr</h1>
                             <div className='flex gap-2'>
@@ -74,7 +79,9 @@ const ThirdSection = () => {
                         </div>
                     </div>
                     <div className='flex gap-5'>
-                        <img src={img4} alt="" />
+                        <div className=' w-36'>
+                            <img className='rounded-xl' src='https://i.ibb.co/8m1TV7n/adiha.png' alt="" />
+                        </div>
                         <div>
                             <h1 className='font-bold'>The Futr Abstr</h1>
                             <div className='flex gap-2'>
