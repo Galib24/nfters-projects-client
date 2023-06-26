@@ -39,7 +39,7 @@ const NavBar = () => {
                         </div>
                     </div>
 
-                    <button className="btn btn-active btn-secondary rounded-full px-5 py-4 mr-16">Primary</button>
+                    <button className='btn rounded-3xl  px-5 bg-[#3D00B7] text-white mr-16 border-[#3D00B7] btn-ghost'>Upload</button>
                     <button className='btn border-[#3D00B7] border-2 rounded-3xl text-[#3D00B7] mr-5 btn-ghost'>Connect Wallet</button>
 
 

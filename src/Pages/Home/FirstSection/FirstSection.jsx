@@ -14,7 +14,7 @@ const FirstSection = () => {
                 <div className='ml-5'>
                     <h1 className='uppercase text-5xl font-bold'>discover, and collect <br /> Digital art nfts </h1>
                     <p className='my-6'>Digital marketing for crypto collections and <br /> non-fungible tokens (NFTs). Buy, Sell, and discover <br /> exclusive digital assets.</p>
-                    <button className='btn btn-secondary rounded-3xl font-bold'>Explore Now</button>
+                    <button className='btn rounded-3xl    px-5 bg-[#3D00B7] text-white border-[#3D00B7] btn-ghost'>Explore Now</button>
                 </div>
 
                 <section className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2'>

@@ -2,8 +2,8 @@ import React, { useEffect, useState } from 'react';
 import img1 from '../../../assets/Ellipse 95.png'
 import useData from '../../../hooks/useData';
 const ThirdSection = () => {
-const [allData] = useData();
-const topData = allData.filter(item => item.ratio >= 1);
+    const [allData] = useData();
+    const topData = allData.filter(item => item.ratio >= 1);
     console.log(topData);
     return (
         <>
@@ -101,6 +101,54 @@ const topData = allData.filter(item => item.ratio >= 1);
                             </button>
                         </div>
                     </div>
+                </div>
+                                                      {/* table part */}
+
+                <div className="overflow-x-auto my-16 ml-7">
+                    <h1 className='font-bold text-3xl'>TOP COLLECTIONS OVER</h1>
+                    <p className='text-[#3D00B7] my-5'>Last 7 days</p>
+                    <table className="table my-4">
+                        
+                   
+                        <tbody>
+                            {
+                                topData.map((items, index) =>    <tr
+                                key={items.id}
+                                >
+                                <td className='font-semibold text-2xl'>
+                                  {index + 1}
+                                </td>
+                                <td>
+                                    <div className="flex items-center space-x-3">
+                                        <div className="avatar">
+                                            <div className="mask mask-squircle w-12 h-12">
+                                                <img src={items.img} alt="Avatar Tailwind CSS Component" />
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div className="font-bold ml-3">{items.name}</div>
+                                            <div className='w-10 ml-3  flex'>
+                                        <img className='mr-2' src="https://i.ibb.co/LtdsXJg/Vector.png" alt="" />
+                                        <div>
+                                            <p>{items.eth}</p>
+                                        </div>
+                                    </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                <div className="font-semibold text-[#14C8B0] text-2xl"> +{items.ratio}</div>
+                                </td>
+                              
+                            </tr>
+                     )
+                            }
+                         
+                   
+                        </tbody>
+               
+
+                    </table>
                 </div>
             </section>
         </>
