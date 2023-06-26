@@ -1,10 +1,13 @@
 import React from 'react';
+import FirstSection from '../FirstSection/FirstSection';
+import SecondSection from '../SecondSection/SecondSection';
 
 const Home = () => {
     return (
-        <div>
-            <h2>this is home</h2>
-        </div>
+        <>
+            <FirstSection></FirstSection>
+            <SecondSection></SecondSection>
+        </>
     );
 };
 
