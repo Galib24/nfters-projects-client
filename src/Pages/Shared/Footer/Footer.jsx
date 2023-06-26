@@ -9,7 +9,7 @@ const Footer = () => {
                 <footer className="footer p-10 bg-white text-black">
 
                     <div>
-                        <span className="footer-title">Social</span>
+                        
                         <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
                             <div>
                                 <h1 className='text-3xl font-bold uppercase'>nfters</h1>
