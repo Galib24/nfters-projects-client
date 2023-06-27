@@ -6,6 +6,7 @@ const NavBar = () => {
         <li><Link className='font-semibold'>Marketplace</Link></li>
         <li><Link className='font-semibold'>Resource</Link></li>
         <li><Link className='font-semibold'>About</Link></li>
+        {/* <li><Link className='/collections'>Home</Link></li> */}
 
 
     </>
@@ -21,7 +22,7 @@ const NavBar = () => {
                             {navOptions}
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-secondary  text-2xl font-extrabold uppercase ml-4">nfters</a>
+                    <Link className="btn btn-ghost text-secondary  text-2xl font-extrabold uppercase ml-4" to='/'>nfters</Link>
                 </div>
                 <div className="navbar-start mr-16 hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
@@ -30,7 +31,7 @@ const NavBar = () => {
                 </div>
                 <div className="navbar-end flex sm:flex-col-reverse md:flex-row lg:flex-row  ">
 
-                    <div className="form-control mr-24  ml-20">
+                    <div className="form-control mr-24 ">
                         <div className="flex relative  ">
                             <input type="text" placeholder="Search…" className="input input-bordered px-7" />
                             <button className="btn absolute btn-ghost inline-block rounded-full right-0 ml-5">

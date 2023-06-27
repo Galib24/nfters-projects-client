@@ -7,6 +7,10 @@ const ThirdSection = () => {
     return (
         <>
             <section className='grid sm:grid-cols-1 md:grid-cols-2 my-16 lg:grid-cols-3 '>
+
+
+                {/* ---------------------------------card part in ui */}
+                
                 <div className=' my-16 px-10'>
                     <img src="https://i.ibb.co/sCDSSGt/unsplash-F56-Y7dgr-Akc.png" alt="" />
                     <div className='flex gap-2  mt-4'>

@@ -1,11 +1,5 @@
 import React from 'react';
 import './FirstSection.css'
-import img1 from '../../../assets/unsplash_E8Ufcyxz514.png'
-import img2 from '../../../assets/unsplash_pVoEPpLw818.png'
-import img3 from '../../../assets/unsplash_tZCrFpSNiIQ.png'
-import firstLogo from '../../../assets/Group 83.png'
-import secondLogo from '../../../assets/Vector.svg'
-import user1 from '../../../assets/Ellipse 95.png'
 
 const FirstSection = () => {
     return (
@@ -42,33 +36,33 @@ const FirstSection = () => {
 
 
                                 <div className='absolute w-[330px] ml-40'>
-                                    <img src={img3} alt="" />
+                                    <img src='https://i.ibb.co/wM40BQC/unsplash-t-ZCr-Fp-SNi-IQ.png' alt="" />
 
                                 </div>
                                 <div className='absolute w-[340px] ml-20 '>
-                                    <img src={img2} alt="" />
+                                    <img src='https://i.ibb.co/NVw2bGC/unsplash-p-Vo-EPp-Lw818.png' alt="" />
                                 </div>
                                 <div className='absolute w-[353px] '>
-                                    <img src={img1} alt="" />
+                                    <img src='https://i.ibb.co/bLYCYkb/unsplash-E8-Ufcyxz514.png' alt="" />
                                 </div>
 
                                 {/* <div style={{borderRadius: '50px 50px 50px 50px', width: '90px'}} className='p-5 absolute top-28  bg-green-600 '>Live Auction</div> */}
                                 <div className='absolute top-30 mt-10 ml-10'>
                                     <h2 className='text-2xl font-semibold text-white '>Abstr Gradient NFT</h2>
                                     <div className='flex'>
-                                    <img className='mr-4' src={user1} alt="" />
+                                    <img className='mr-4' src='https://i.ibb.co/0GjMPTZ/Ellipse-95.png' alt="" />
                                     <p className='text-white'>Arkhan17</p>
                                     </div>
                                 </div>
                                 <div className='absolute top-48  w-[100px] '>
-                                    <img src={firstLogo} alt="" />
+                                    <img src='https://i.ibb.co/ngmpxSt/Group-83.png' alt="" />
                                 </div>
 
                                 <div className='grid sm:grid-cols-2 md:grid-cols-2  backdrop-blur-sm bg-white/30 absolute top-80 ml-10 px-11 rounded-3xl gap-4 text-white '>
                                     <div>
                                         <h2>Current Bid</h2>
                                         <span className='flex'>
-                                            <img className='mr-2' src={secondLogo} alt="" />
+                                            <img className='mr-2' src='https://i.ibb.co/Z8tCzkY/Vector.png' alt="" />
                                             <p>0.25 ETH</p>
                                         </span>
                                     </div>

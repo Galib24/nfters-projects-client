@@ -1,6 +1,4 @@
 import React from 'react';
-import secondSectionLogo1 from '../../../assets/card-tick-1 1.png'
-import secondSectionLogo2 from '../../../assets/chart-square 2.png'
 const SecondSection = () => {
     return (
         <>
@@ -10,7 +8,7 @@ const SecondSection = () => {
                 </div>
                 <div className='grid grid-cols-1'>
                     <div className='flex gap-5'>
-                        <img src={secondSectionLogo1} alt="" />
+                        <img src='https://i.ibb.co/nQ2Rdc3/card-tick-1-1.png' alt="" />
                         <h1 className='text-2xl font-semibold'>Fast Transaction</h1>
                     </div>
                     <p>
@@ -19,7 +17,7 @@ const SecondSection = () => {
                 </div>
                 <div className='grid grid-cols-1 mr-3'>
                     <div className='flex gap-5'>
-                        <img src={secondSectionLogo2} alt="" />
+                        <img src='https://i.ibb.co/qpNrnsC/chart-square-2.png' alt="" />
                         <h1  className='text-2xl font-semibold'>Fast Transaction</h1>
                     </div>
                     <p>
