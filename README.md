@@ -1,5 +1,5 @@
 # nfters-projects-client
-This project is build for crypto based site.
+This project is build for crypto based site. Here used react, tailwind and mongodb make user friendly
 
 ## statics
 Here me added data and build dynamically and also maked fully responsive.
