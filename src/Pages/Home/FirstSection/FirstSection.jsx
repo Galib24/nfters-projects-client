@@ -12,7 +12,7 @@ const FirstSection = () => {
         <>
             <div className=' py-96   '>
                 <div className='ml-5'>
-                    <h1 className='uppercase text-5xl font-bold'>discover, and collect <br /> Digital art nfts </h1>
+                    <h1 className='uppercase text-5xl font-extrabold'>discover, and collect <br /> Digital art nfts </h1>
                     <p className='my-6'>Digital marketing for crypto collections and <br /> non-fungible tokens (NFTs). Buy, Sell, and discover <br /> exclusive digital assets.</p>
                     <button className='btn rounded-3xl    px-5 bg-[#3D00B7] text-white border-[#3D00B7] btn-ghost'>Explore Now</button>
                 </div>
@@ -21,15 +21,15 @@ const FirstSection = () => {
                     <div>
                         <div className='grid sm:grid-cols-1 md:grid-cols-3 gap-3 my-6 ml-6'>
                             <div>
-                                <h1 className='text-4xl font-bold'>89K+</h1>
+                                <h1 className='text-4xl font-extrabold'>89K+</h1>
                                 <p>Artwork</p>
                             </div>
                             <div>
-                                <h1 className='text-4xl font-bold'>12K+</h1>
+                                <h1 className='text-4xl font-extrabold'>12K+</h1>
                                 <p>Auction</p>
                             </div>
                             <div>
-                                <h1 className='text-4xl font-bold'>15K+</h1>
+                                <h1 className='text-4xl font-extrabold'>15K+</h1>
                                 <p>Artist</p>
                             </div>
                         </div>

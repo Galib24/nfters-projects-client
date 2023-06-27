@@ -4,6 +4,7 @@ import SecondSection from '../SecondSection/SecondSection';
 import ThirdSection from '../ThirdSection/ThirdSection';
 import FourthSection from '../FourthSection/FourthSection';
 import CollectionFeatured from '../CollectionFeatured/CollectionFeatured';
+import FinalPart from '../FinalPart/FinalPart';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <ThirdSection></ThirdSection>
             <CollectionFeatured></CollectionFeatured>
             <FourthSection></FourthSection>
+            <FinalPart></FinalPart>
         </>
     );
 };

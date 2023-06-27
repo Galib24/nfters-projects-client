@@ -104,7 +104,7 @@ const ThirdSection = () => {
                                                       {/* table part */}
 
                 <div className="overflow-x-auto my-16 ml-7">
-                    <h1 className='font-bold text-3xl'>TOP COLLECTIONS OVER</h1>
+                    <h1 className='font-extrabold text-2xl'>TOP COLLECTIONS OVER</h1>
                     <p className='text-[#3D00B7] my-5'>Last 7 days</p>
                     <table className="table my-4">
                         

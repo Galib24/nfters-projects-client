@@ -3,8 +3,12 @@ import React from 'react';
 
 const CollectionFeatured = () => {
     return (
-        <>
+        <div className='bg-gray-200'>
+        <div>
+        <h1 className='uppercase font-extrabold text-3xl ml-5 my-16'>collection featured nfts</h1>
+        </div>
             <section className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
+                
 
                 {/*----------------------------------- first part ------------------- */}
                 <div className='mr-3'>
@@ -65,7 +69,7 @@ const CollectionFeatured = () => {
                     </div>
                 </div>
                 {/* --------------------------------------third part ----------------------- */}
-                <div className='mr-3'>
+                <div className='mr-5'>
                     <div className='flex'>
                         <div className='w-50'>
                             <img className=' rounded-2xl' src="https://i.ibb.co/kcGRCcC/adhiaf.png" alt="" />
@@ -95,7 +99,7 @@ const CollectionFeatured = () => {
 
                 </div>
             </section>
-        </>
+        </div>
     );
 };
 

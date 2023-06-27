@@ -6,7 +6,7 @@ const SecondSection = () => {
         <>
             <div className='py-32 bg-gray-200 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-5'>
                 <div>
-                    <h1 className='text-3xl ml-4 font-bold uppercase'>the amazing nft art <br /> of the world here</h1>
+                    <h1 className='text-3xl ml-4 font-extrabold uppercase'>the amazing nft art <br /> of the world here</h1>
                 </div>
                 <div className='grid grid-cols-1'>
                     <div className='flex gap-5'>
