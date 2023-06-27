@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import img1 from '../../../assets/Ellipse 95.png'
 import useData from '../../../hooks/useData';
 const ThirdSection = () => {
     const [allData] = useData();
@@ -7,12 +6,12 @@ const ThirdSection = () => {
     console.log(topData);
     return (
         <>
-            <section className='grid sm:grid-cols-1 md:grid-cols-2 my-16 lg:grid-cols-3'>
+            <section className='grid sm:grid-cols-1 md:grid-cols-2 my-16 lg:grid-cols-3 '>
                 <div className=' my-16 px-10'>
                     <img src="https://i.ibb.co/sCDSSGt/unsplash-F56-Y7dgr-Akc.png" alt="" />
                     <div className='flex gap-2  mt-4'>
                         <div className='w-10'>
-                            <img src={img1} alt="" />
+                            <img src='https://i.ibb.co/0GjMPTZ/Ellipse-95.png' alt="" />
                         </div>
                         <div>
                             <h1 className='font-bold'>The Futr Abstr</h1>
@@ -40,7 +39,7 @@ const ThirdSection = () => {
                             <h1 className='font-bold'>The Futr Abstr</h1>
                             <div className='flex gap-2'>
                                 <div className='w-10 mt-5'>
-                                    <img className='mr-5 ' src={img1} alt="" />
+                                    <img className='mr-5 ' src='https://i.ibb.co/0GjMPTZ/Ellipse-95.png' alt="" />
                                 </div>
                                 <span className='flex border-2 my-3 rounded-2xl border-green-500'>
                                     <div className='w-10'>
@@ -63,7 +62,7 @@ const ThirdSection = () => {
                             <h1 className='font-bold'>The Futr Abstr</h1>
                             <div className='flex gap-2'>
                                 <div className='w-10 mt-5'>
-                                    <img className='mr-5 ' src={img1} alt="" />
+                                    <img className='mr-5 ' src='https://i.ibb.co/0GjMPTZ/Ellipse-95.png' alt="" />
                                 </div>
                                 <span className='flex border-2 my-3 rounded-2xl border-green-500'>
                                     <div className='w-10'>
@@ -86,7 +85,7 @@ const ThirdSection = () => {
                             <h1 className='font-bold'>The Futr Abstr</h1>
                             <div className='flex gap-2'>
                                 <div className='w-10 mt-5'>
-                                    <img className='mr-5 ' src={img1} alt="" />
+                                    <img className='mr-5 ' src='https://i.ibb.co/0GjMPTZ/Ellipse-95.png' alt="" />
                                 </div>
                                 <span className='flex border-2 my-3 rounded-2xl border-green-500'>
                                     <div className='w-10'>
