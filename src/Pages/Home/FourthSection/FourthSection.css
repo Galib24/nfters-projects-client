@@ -1,0 +1,10 @@
+.image-collection{
+    background-image: url('../../../assets//unsplash_E8Ufcyxz514.png'),
+    url('../../../assets//unsplash_pVoEPpLw818.png'),
+     url('../../../assets/unsplash_tZCrFpSNiIQ.png') ;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    width: fit-content;
+    padding: 300px;
+    background-size: 200px;
+    background-position:  top left, right center,  bottom left;
+}
