@@ -4,7 +4,7 @@ const useData = () => {
     const [allData, setAllData] = useState([]);
     const [loading, setLoading] = useState(true);
     useEffect(() => {
-        fetch('http://localhost:5000/collections')
+        fetch('https://nfters-project-server.vercel.app/collections')
             .then(res => res.json())
             .then(data => {
                  setAllData(data)
